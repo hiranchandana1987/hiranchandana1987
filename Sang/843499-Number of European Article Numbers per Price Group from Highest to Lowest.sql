@@ -1,4 +1,4 @@
 SELECT price, COUNT(ean)
 FROM finance.pearsonprices
 GROUP BY 1
-ORDER BY 1 DESC
+ORDER BY 2 DESC
